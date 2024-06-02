@@ -81,6 +81,10 @@ main {
     color: #2941ab;
     font-weight: 700;
     border: none;
+    transition: .5s;
+}
+.button-area button:hover {
+    scale: 1.1;
 }
 /* footer */
 footer {
