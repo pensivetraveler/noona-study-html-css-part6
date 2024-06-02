@@ -14,6 +14,9 @@ p {
 a:visited {
     color: inherit;
 }
+button {
+    cursor: pointer;
+}
 /* header */
 header {
     background-color: black;
@@ -95,5 +98,71 @@ footer {
 .footer-menu {
     display: flex;
     justify-content:space-between;
+    height: 346px;
+}
+.first-box {
+    display: flex;
+    justify-content: space-between;
     align-items: flex-start;
+    width: 60%;
+}
+.footer-logo img {
+    width: 132px; 
+}
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}
+.footer-column p:first-child {
+    color: #919496;
+    font-weight: 900;
+    margin: 20px 0px;
+}
+.footer-column p:not(:first-child) {
+    padding-bottom: 15px;
+    padding-top: 3px;
+    font-size: 16px;
+}
+.second-box {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.second-box button {
+    width: 54px;
+    height: 54px;
+    background-color: #222322;
+    border-radius: 50%;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: unset;
+}
+.second-box button .icon {
+    font-size: 24px;
+    color: white;
+}
+.second-box button:hover .icon {
+    color: #1ed760;
+}
+.first-line {
+    color: #919496;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+}
+.first-line i {
+    margin-right: 10px;
+}
+.second-line {
+    color: #919496;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+.second-line a {
+    margin-right: 24px;
+    color: #919496;
 }
